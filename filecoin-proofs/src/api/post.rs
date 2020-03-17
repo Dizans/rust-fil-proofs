@@ -481,3 +481,7 @@ pub fn verify_post(
 
     Ok(true)
 }
+
+pub fn ffi_do_nothing(){
+    println!("do noting");
+}
